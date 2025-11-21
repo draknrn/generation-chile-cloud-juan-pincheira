@@ -24,7 +24,7 @@ if operador == "+": # Realiza la operación según el operador ingresado
 elif operador == "-":
     print(f"{n1}-{n2} = {n1 - n2}")
 elif operador == "*":
-    print(f"{n1} * {2} = {n1 * n2}")
+    print(f"{n1}*{n2} = {n1 * n2}")
 elif operador == "/":
     if n2 != 0:
         print(f"{n1}/{n2} = {n1 / n2}")
